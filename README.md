@@ -37,7 +37,9 @@ GUG V 0.31 17.8 (    94)  GCG A 0.05  2.7 (    14)  GAG E 0.31 12.7 (    67)  GG
 ```
 - Save it as txt file
 - Input the saved file to kazusa_table_converter.py script <br>
-  ```kazusa_table_converter.py input_file.txt output_file.txt```
+  ```
+  kazusa_table_converter.py input_file.txt output_file.txt
+  ```
 
 ## License 
 
