@@ -36,7 +36,7 @@ GUA V 0.13  7.2 (    38)  GCA A 0.21 12.1 (    64)  GAA E 0.69 28.3 (   149)  GG
 GUG V 0.31 17.8 (    94)  GCG A 0.05  2.7 (    14)  GAG E 0.31 12.7 (    67)  GGG G 0.17 11.2 (    59)
 ```
 - Save it as txt file
-- Input the saved file to kazusa_table_converter.py script
+- Input the saved file to kazusa_table_converter.py script <br>
   ```kazusa_table_converter.py input_file.txt output_file.txt```
 
 ## License 
