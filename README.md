@@ -7,10 +7,10 @@ This script allows to convert the codon usage tables that are found in [Kazusa C
 - From the table page in Kazusa website copy the table text
   ![Alt Text](Figures/Kazusa_Human_adenovirus_type_7d.png)
 
-- Select the code "standard" and submit
+- Select the code "standard" and submit <br>
   ![Alt Text](Figures/kazusa_select_code.png)
 
-  You will get this type of table:
+  You will get this type of table: <br>
   ![Alt Text](Figures/Kazusa_Human_adenovirus_type_7d_to_save.png)
   
 ```
