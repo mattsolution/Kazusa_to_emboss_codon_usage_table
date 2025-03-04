@@ -1,12 +1,13 @@
-# Kazusa_to_emboss_codon_usage_table
-
+# Kazusa to emboss codon usage table converter
+ 
 This script allows to convert the codon usage tables that are found in [Kazusa Codon Usage Database](https://www.kazusa.or.jp/codon/) to be used with EMBOSS tools
 
-Usage example for the Human adenovirus type 7d:
+## Usage example for the Human adenovirus type 7d:
 
 - From the table page in Kazusa website copy the table text
 ![Alt Text](Figures/Kazusa_Human_adenovirus_type_7d.png)
 
+```
 fields: [triplet] [frequency: per thousand] ([number])
 UUU 25.8(   136)  UCU 20.1(   106)  UAU 15.5(    82)  UGU 11.4(    60)
 UUC 22.2(   117)  UCC 17.6(    93)  UAC 28.3(   149)  UGC  9.5(    50)
@@ -27,7 +28,11 @@ GUU 18.8(    99)  GCU 20.7(   109)  GAU 24.3(   128)  GGU 16.3(    86)
 GUC 13.5(    71)  GCC 23.1(   122)  GAC 25.0(   132)  GGC 13.3(    70)
 GUA  7.2(    38)  GCA 12.1(    64)  GAA 28.3(   149)  GGA 25.6(   135)
 GUG 17.8(    94)  GCG  2.7(    14)  GAG 12.7(    67)  GGG 11.2(    59)
-
+```
 - Save it as txt file
-- Input the file to the python script
+- Input the saved file to kazusa_table_converter.py script
   kazusa_table_converter.py input_file.txt output_file.txt
+
+## License 
+
+This project is licensed under a permissive free-use license. You are free to use, modify, and distribute this project, but please provide attribution by mentioning the original author.
